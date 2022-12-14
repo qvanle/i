@@ -3,7 +3,7 @@ import pygame, numpy
 def exp(screen, color, position):
     Blast = []
     for i in range(1, 6):
-        Blast.append(pygame.image.load("exp/exp" + str(i) + ".png"))
+        Blast.append(pygame.image.load("exp" + str(i) + ".png"))
     print(len(Blast))
 
     for i in range(1, 60, 1):
